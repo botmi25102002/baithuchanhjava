@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class App47 {
@@ -6,18 +7,19 @@ public class App47 {
 
     int n, sum = 0;
 
-    Scanner scanner = new Scanner(System.in);      
+    Scanner scanner = new Scanner(System.in);
 
     do {
 
-     System.out.println("Nhập vào số nguyên bất kỳ: ");
+      System.out.println("Nhập vào số nguyên bất kỳ: ");
 
-       n = scanner.nextInt();
+      n = scanner.nextInt();
 
-       sum += n;
+      sum += n;
 
-   } while (sum < 100); 
+    } while (sum < 100);
 
-     System.out.println("Tổng các số nguyên vừa nhập = "+sum);
+    System.out.println("Tổng các số nguyên vừa nhập = " + sum);
 
-    } }
+  }
+}

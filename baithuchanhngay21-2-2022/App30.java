@@ -6,9 +6,8 @@ public class App30 {
 		int n = sc.nextInt();
 		int answer = 0;
 		for (int i = 0; i <= n; i++) {
-				answer += i;
+			answer += i;
 		}
 		System.out.println(answer);
 	}
 }
-    
